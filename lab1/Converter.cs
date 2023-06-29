@@ -1,6 +1,4 @@
-﻿// Include namespace system
-using System;
-using System.IO;
+﻿// Include namespace systems
 public class Converter
 {
     public static void Main(string[] args)
@@ -20,5 +18,5 @@ public class Converter
         number = (int)(number / system);
     }
     Console.WriteLine(r);
-}
+    }
 }
