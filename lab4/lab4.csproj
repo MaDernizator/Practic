@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Anisin">
+        <HintPath>Anisin.dll</HintPath>
+      </Reference>
+      <Reference Include="create_arr">
+        <HintPath>create_arr.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
