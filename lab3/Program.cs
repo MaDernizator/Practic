@@ -151,17 +151,20 @@ public class TwoArray
 {
     public static void Main(string[] args)
     {
+        Console.WriteLine("Размер массива: ");
         var n = Convert.ToInt32(Console.ReadLine());
         var class1 = new base_class(n);
+        Console.WriteLine("Массив: ");
         Console.WriteLine(class1.print());
         Console.WriteLine(class1.process());
         var class2 = new heir_class(n);
+        Console.WriteLine("Двумерный массив: ");
         foreach (var i in class2.print_f())
         {
             Console.WriteLine(i);
         }
         class2.dup();
-        Console.WriteLine("------------------------");
+        Console.WriteLine("Изменённый массив массив: ");
         foreach (var i in class2.print_f())
         {
             Console.WriteLine(i);

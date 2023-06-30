@@ -3,7 +3,9 @@ public class Converter
 {
     public static void Main(string[] args)
     {
+        Console.WriteLine("Число в десятично системе:");
         var number = Convert.ToInt64(Console.ReadLine());
+        Console.WriteLine("основание системы счисления:");
         var system = Convert.ToInt64(Console.ReadLine());
         if (number == 0)
         {
@@ -17,6 +19,7 @@ public class Converter
         r = alp[(number % system)] + r;
         number = (int)(number / system);
     }
+        Console.WriteLine("Число в новой системе");
     Console.WriteLine(r);
     }
 }
